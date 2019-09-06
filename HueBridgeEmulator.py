@@ -442,9 +442,10 @@ class S(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps([{"success": "/" + url_pices[3] + "/" + url_pices[4] + " deleted."}]))
 
 def run(server_class=HTTPServer, handler_class=S):
-    server_address = ('', 80)
+    listen_port = 80  # port real hardware use
+    server_address = ('', listen_port)
     httpd = server_class(server_address, handler_class)
-    print 'Starting httpd...'
+    print('Starting httpd on %d...' % listen_port)
     httpd.serve_forever()
 
 if __name__ == "__main__":
