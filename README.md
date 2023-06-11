@@ -27,3 +27,14 @@ Known problems:
 
   * serves wrong content type for payloads (e.g. missing xml and json content type)
   * Python 2 only
+
+## Running
+
+Uses Python stdlib, can either listen on port 80 (which under Unix platforms is a restricted port):
+
+    python2 HueBridgeEmulator.py
+    python HueBridgeEmulator.py
+
+or override for non-default, e.g.:
+
+    env HUE_PORT=1999 python HueBridgeEmulator.py
