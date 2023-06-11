@@ -1,6 +1,6 @@
 {
     "config": {
-        "UTC": "2023-06-11T16:09:39",
+        "UTC": "2023-06-11T16:23:10",
         "apiversion": "1.19.0",
         "bridgeid": "B827EBC76B26",
         "datastoreversion": 59,
@@ -9,7 +9,7 @@
         "gateway": "192.168.1.1",
         "ipaddress": "192.168.10.200",
         "linkbutton": true,
-        "localtime": "2023-06-11T09:09:41",
+        "localtime": "2023-06-11T09:23:13",
         "mac": "b8:27:eb:c7:6b:26",
         "modelid": "BSB002",
         "name": "Philips hue",
@@ -29,7 +29,92 @@
         },
         "zigbeechannel": 15
     },
-    "groups": {},
+    "groups": {
+        "1": {
+            "action": {
+                "alert": "none",
+                "bri": 177,
+                "colormode": "ct",
+                "ct": 461,
+                "effect": "none",
+                "hue": 0,
+                "on": true,
+                "sat": 0,
+                "xy": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "class": "Living room",
+            "lights": [
+                "2",
+                "1",
+                "4"
+            ],
+            "name": "Living room",
+            "recycle": false,
+            "sensors": [],
+            "state": {
+                "all_on": true,
+                "any_on": true,
+                "bri": 177,
+                "lastupdated": "2023-06-10T17:07:03"
+            },
+            "type": "Room"
+        },
+        "2": {
+            "action": {
+                "alert": "select",
+                "bri": 254,
+                "colormode": "ct",
+                "ct": 366,
+                "on": true
+            },
+            "class": "Kitchen",
+            "lights": [
+                "3"
+            ],
+            "name": "Kitchen",
+            "recycle": false,
+            "sensors": [],
+            "state": {
+                "all_on": true,
+                "any_on": true
+            },
+            "type": "Room"
+        },
+        "3": {
+            "action": {
+                "alert": "none",
+                "bri": 177,
+                "colormode": "ct",
+                "ct": 461,
+                "effect": "none",
+                "hue": 0,
+                "on": true,
+                "sat": 0,
+                "xy": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "class": "Living room",
+            "lights": [
+                "2",
+                "1"
+            ],
+            "name": "Cozy Zone",
+            "recycle": false,
+            "sensors": [],
+            "state": {
+                "all_on": true,
+                "any_on": true,
+                "bri": 177,
+                "lastupdated": "2023-06-10T17:07:03"
+            },
+            "type": "Zone"
+        }
+    },
     "lights": {
         "1": {
             "modelid": "LCT001",
@@ -41,7 +126,7 @@
                 "ct": 461,
                 "effect": "none",
                 "hue": 0,
-                "on": false,
+                "on": true,
                 "reachable": true,
                 "sat": 0,
                 "xy": [
@@ -63,7 +148,7 @@
                 "ct": 156,
                 "effect": "none",
                 "hue": 0,
-                "on": false,
+                "on": true,
                 "reachable": true,
                 "sat": 0,
                 "xy": [
