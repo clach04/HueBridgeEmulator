@@ -1,6 +1,6 @@
 {
     "config": {
-        "UTC": "2023-06-11T16:23:10",
+        "UTC": "2023-06-11T16:26:04",
         "apiversion": "1.19.0",
         "bridgeid": "B827EBC76B26",
         "datastoreversion": 59,
@@ -9,7 +9,7 @@
         "gateway": "192.168.1.1",
         "ipaddress": "192.168.10.200",
         "linkbutton": true,
-        "localtime": "2023-06-11T09:23:13",
+        "localtime": "2023-06-11T09:26:10",
         "mac": "b8:27:eb:c7:6b:26",
         "modelid": "BSB002",
         "name": "Philips hue",
@@ -22,9 +22,9 @@
         "whitelist": {
             "": {},
             "a7161538be80d40b3de98dece6e91f904dc96170": {
-                "create date": "2017-05-18T12:21:43",
-                "last use date": "2017-05-18T12:21:43",
-                "name": "H"
+                "create date": "2023-06-11T16:25:44",
+                "last use date": "2023-06-11T16:25:44",
+                "name": "Hue Essentials"
             }
         },
         "zigbeechannel": 15
@@ -236,7 +236,7 @@
                 "ct": 461,
                 "effect": "none",
                 "hue": 0,
-                "on": false,
+                "on": true,
                 "reachable": true,
                 "sat": 0,
                 "xy": [
@@ -264,7 +264,7 @@
             "modelid": "RWL021",
             "name": "Dimmer Switch",
             "state": {
-                "buttonevent": "4000",
+                "buttonevent": 4000,
                 "lastupdated": "2017-05-03T23:18:25"
             },
             "swversion": "5.45.1.17846",
