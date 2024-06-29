@@ -28,6 +28,9 @@ Known problems:
   * serves wrong content type for payloads (e.g. missing xml and json content type)
   * Python 2 only
 
+Edit config file to change fake devices.
+Edit config file to add/remove users to whitelist.
+
 ## Running
 
 Uses Python stdlib, can either listen on port 80 (which under Unix platforms is a restricted port):
@@ -38,3 +41,19 @@ Uses Python stdlib, can either listen on port 80 (which under Unix platforms is 
 or override for non-default, e.g.:
 
     env HUE_PORT=1999 python HueBridgeEmulator.py
+
+#### cURL Philips Hue samples
+
+    echo IP needs to include colon port if NOT using port 80
+    export USERNAME=nouser
+    export IP=127.0.0.1:80
+    export LIGHTNUM=1  # pick the first one
+    curl -v http://${IP}/description.xml
+    curl -v http://${IP}/api/${USERNAME}/lights
+    curl -v http://${IP}/api/${USERNAME}/config
+
+    curl -v http://${IP}/api/${USERNAME}/lights/${LIGHTNUM}
+    curl -s -H "Accept: application/json" -X PUT --data "{\"on\": true}"  http://${IP}/api/${USERNAME}/lights/${LIGHTNUM}/state
+    curl -s -H "Accept: application/json" -X PUT --data "{\"on\": false}" http://${IP}/api/${USERNAME}/lights/${LIGHTNUM}/state
+
+

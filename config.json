@@ -9,7 +9,7 @@
         "gateway": "192.168.1.1",
         "ipaddress": "192.168.10.200",
         "linkbutton": true,
-        "localtime": "2023-06-11T09:26:10",
+        "localtime": "2024-06-29T16:24:21",
         "mac": "b8:27:eb:c7:6b:26",
         "modelid": "BSB002",
         "name": "Philips hue",
@@ -25,7 +25,9 @@
                 "create date": "2023-06-11T16:25:44",
                 "last use date": "2023-06-11T16:25:44",
                 "name": "Hue Essentials"
-            }
+            },
+            "noname": {},
+            "nouser": {}
         },
         "zigbeechannel": 15
     },
@@ -33,7 +35,7 @@
         "1": {
             "action": {
                 "alert": "none",
-                "bri": 177,
+                "bri": 200,
                 "colormode": "ct",
                 "ct": 461,
                 "effect": "none",
@@ -57,8 +59,8 @@
             "state": {
                 "all_on": true,
                 "any_on": true,
-                "bri": 177,
-                "lastupdated": "2023-06-10T17:07:03"
+                "bri": 200,
+                "lastupdated": "2024-06-29T23:22:03"
             },
             "type": "Room"
         },
@@ -86,7 +88,7 @@
         "3": {
             "action": {
                 "alert": "none",
-                "bri": 177,
+                "bri": 200,
                 "colormode": "ct",
                 "ct": 461,
                 "effect": "none",
@@ -109,8 +111,8 @@
             "state": {
                 "all_on": true,
                 "any_on": true,
-                "bri": 177,
-                "lastupdated": "2023-06-10T17:07:03"
+                "bri": 200,
+                "lastupdated": "2024-06-29T23:22:03"
             },
             "type": "Zone"
         }
