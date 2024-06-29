@@ -98,7 +98,8 @@ def ssdp_search():
               if data[0:19]== 'M-SEARCH * HTTP/1.1':
                    if data.find("ssdp:all") != -1:
                           sleep(random.randrange(0, 3))
-                          print("Sending M Search response")
+                          print("Sending M Search response")  # TODO dump out peer address and name/description/intent
+                          print("\tSending M Search response to %r" %(address,))  # TODO dump out peer address and name/description/intent
                           sock.sendto(Response_message, address)
               sleep(1)
     sock.close()
