@@ -270,16 +270,17 @@ def description():
 </root>"""
 
 class S(BaseHTTPRequestHandler):
-    def _set_headers(self):
+    def _set_headers(self, content_type='application/json'):
         self.send_response(200)
-        self.send_header('Content-type', 'text/html')
+        self.send_header('Content-type', content_type)
         self.end_headers()
 
     def do_GET(self):
-        self._set_headers()
         if self.path == '/description.xml':
+            self._set_headers(content_type='text/xml')
             self.wfile.write(description())
         else:
+            self._set_headers()
             url_pices = self.path.split('/')
             if url_pices[2] in bridge_config["config"]["whitelist"]: #if username is in whitelist
                 bridge_config["config"]["UTC"] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S")

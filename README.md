@@ -25,7 +25,6 @@ Known to work with:
 
 Known problems:
 
-  * serves wrong content type for payloads (e.g. missing xml and json content type)
   * Python 2 only
 
 Edit config file to change fake devices.
