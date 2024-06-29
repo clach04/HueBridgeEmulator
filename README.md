@@ -42,7 +42,17 @@ or override for non-default, e.g.:
 
     env HUE_PORT=1999 python HueBridgeEmulator.py
 
-#### cURL Philips Hue samples
+### Discovery
+
+Works with https://github.com/clach04/discoverhue/blob/mybranch/mydemo.py
+
+NOTE if another process is already listening on port 1900, will see errors on startup:
+
+    error: [Errno 98] Address already in use
+
+So (msearch) discovery will not work but light requests will work fine.
+
+### cURL Philips Hue samples
 
     echo IP needs to include colon port if NOT using port 80
     export USERNAME=nouser
