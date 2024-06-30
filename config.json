@@ -1,6 +1,6 @@
 {
     "config": {
-        "UTC": "2023-06-11T16:26:04",
+        "UTC": "2024-06-30T00:36:35",
         "apiversion": "1.19.0",
         "bridgeid": "B827EBC76B26",
         "datastoreversion": 59,
@@ -9,7 +9,7 @@
         "gateway": "192.168.1.1",
         "ipaddress": "192.168.10.200",
         "linkbutton": true,
-        "localtime": "2024-06-29T16:24:21",
+        "localtime": "2024-06-29T17:36:46",
         "mac": "b8:27:eb:c7:6b:26",
         "modelid": "BSB002",
         "name": "Philips hue",
@@ -22,9 +22,9 @@
         "whitelist": {
             "": {},
             "a7161538be80d40b3de98dece6e91f904dc96170": {
-                "create date": "2023-06-11T16:25:44",
-                "last use date": "2023-06-11T16:25:44",
-                "name": "Hue Essentials"
+                "create date": "2024-06-30T00:14:39",
+                "last use date": "2024-06-30T00:14:39",
+                "name": "Hue Essentials#SM-G965U1"
             },
             "noname": {},
             "nouser": {}
@@ -34,10 +34,10 @@
     "groups": {
         "1": {
             "action": {
-                "alert": "none",
-                "bri": 200,
+                "alert": "select",
+                "bri": 129,
                 "colormode": "ct",
-                "ct": 461,
+                "ct": 156,
                 "effect": "none",
                 "hue": 0,
                 "on": true,
@@ -57,10 +57,10 @@
             "recycle": false,
             "sensors": [],
             "state": {
-                "all_on": true,
-                "any_on": true,
-                "bri": 200,
-                "lastupdated": "2024-06-29T23:22:03"
+                "all_on": false,
+                "any_on": false,
+                "bri": 129,
+                "lastupdated": "2024-06-30T00:36:33"
             },
             "type": "Room"
         },
@@ -70,7 +70,7 @@
                 "bri": 254,
                 "colormode": "ct",
                 "ct": 366,
-                "on": true
+                "on": false
             },
             "class": "Kitchen",
             "lights": [
@@ -80,20 +80,20 @@
             "recycle": false,
             "sensors": [],
             "state": {
-                "all_on": true,
-                "any_on": true
+                "all_on": false,
+                "any_on": false
             },
             "type": "Room"
         },
         "3": {
             "action": {
-                "alert": "none",
-                "bri": 200,
+                "alert": "select",
+                "bri": 129,
                 "colormode": "ct",
-                "ct": 461,
+                "ct": 156,
                 "effect": "none",
                 "hue": 0,
-                "on": true,
+                "on": false,
                 "sat": 0,
                 "xy": [
                     0.0,
@@ -109,10 +109,10 @@
             "recycle": false,
             "sensors": [],
             "state": {
-                "all_on": true,
-                "any_on": true,
-                "bri": 200,
-                "lastupdated": "2024-06-29T23:22:03"
+                "all_on": false,
+                "any_on": false,
+                "bri": 129,
+                "lastupdated": "2024-06-30T00:36:33"
             },
             "type": "Zone"
         }
@@ -123,7 +123,7 @@
             "name": "Hue rgb bulb 1",
             "state": {
                 "alert": "none",
-                "bri": 200,
+                "bri": 194,
                 "colormode": "ct",
                 "ct": 461,
                 "effect": "none",
@@ -145,7 +145,7 @@
             "name": "Hue rgb bulb 2",
             "state": {
                 "alert": "select",
-                "bri": 254,
+                "bri": 129,
                 "colormode": "ct",
                 "ct": 156,
                 "effect": "none",
@@ -172,7 +172,7 @@
                 "ct": 461,
                 "effect": "none",
                 "hue": 0,
-                "on": true,
+                "on": false,
                 "reachable": true,
                 "sat": 0,
                 "xy": [
