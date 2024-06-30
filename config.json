@@ -1,6 +1,6 @@
 {
     "config": {
-        "UTC": "2024-06-30T00:36:35",
+        "UTC": "2024-06-30T00:47:07",
         "apiversion": "1.19.0",
         "bridgeid": "B827EBC76B26",
         "datastoreversion": 59,
@@ -9,7 +9,7 @@
         "gateway": "192.168.1.1",
         "ipaddress": "192.168.10.200",
         "linkbutton": true,
-        "localtime": "2024-06-29T17:36:46",
+        "localtime": "2024-06-29T17:47:13",
         "mac": "b8:27:eb:c7:6b:26",
         "modelid": "BSB002",
         "name": "Philips hue",
@@ -116,14 +116,13 @@
             },
             "type": "Zone"
         },
-
-
         "4": {
             "action": {
                 "alert": "select",
                 "bri": 254,
                 "colormode": "ct",
                 "ct": 366,
+                "mode": "homeautomation",
                 "on": false
             },
             "class": "Kitchen",
@@ -136,7 +135,9 @@
             "sensors": [],
             "state": {
                 "all_on": false,
-                "any_on": false
+                "any_on": false,
+                "bri": 254,
+                "lastupdated": "2024-06-30T00:47:10"
             },
             "type": "Room"
         }
@@ -274,37 +275,35 @@
             "type": "Extended color light",
             "uniqueid": "92:a0:d7:7f:cf:5c-1"
         },
-
-      "7": {
-        "manufacturername": "Made Up Corp",
-        "modelid": "FAKE123",
-        "name": "Test Lamp",
-        "state": {
-          "bri": 1,
-          "mode": "homeautomation",
-          "on": false,
-          "reachable": true
+        "7": {
+            "manufacturername": "Made Up Corp",
+            "modelid": "FAKE123",
+            "name": "Test Lamp",
+            "state": {
+                "bri": 254,
+                "mode": "homeautomation",
+                "on": true,
+                "reachable": true
+            },
+            "swversion": "123",
+            "type": "Dimmable light",
+            "uniqueid": "00:99:44:6d:f1:13:4f:25-4c"
         },
-        "swversion": "123",
-        "type": "Dimmable light",
-        "uniqueid": "00:99:44:6d:f1:13:4f:25-4c"
-      },
-      "8": {
-        "manufacturername": "Made Up Corp",
-        "modelid": "FAKE123",
-        "name": "Test Switch",
-        "productname": "On/Off light",
-        "state": {
-          "bri": 254,
-          "mode": "homeautomation",
-          "on": false,
-          "reachable": true
-        },
-        "swversion": "123",
-        "type": "On/Off light",
-        "uniqueid": "00:99:44:50:1b:e0:e5:80-d1"
-      }
-
+        "8": {
+            "manufacturername": "Made Up Corp",
+            "modelid": "FAKE123",
+            "name": "Test Switch",
+            "productname": "On/Off light",
+            "state": {
+                "bri": 254,
+                "mode": "homeautomation",
+                "on": false,
+                "reachable": true
+            },
+            "swversion": "123",
+            "type": "On/Off light",
+            "uniqueid": "00:99:44:50:1b:e0:e5:80-d1"
+        }
     },
     "resourcelinks": {},
     "rules": {},
