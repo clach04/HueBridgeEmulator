@@ -51,6 +51,9 @@ NOTE if another process is already listening on port 1900, will see errors on st
 
 So (msearch) discovery will not work but light requests will work fine.
 
+Mostly works with https://hueessentials.com/ - tty (and logging) gets messed up, can control lights :-)
+Editing settings in Android app results in an error and (corrupted) traceback.
+
 Does not work with https://github.com/ekux44/LampShade (which appears to work with Home Assistant), either on port 80 or something else.
 
 ### cURL Philips Hue samples
