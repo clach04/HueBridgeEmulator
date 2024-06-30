@@ -51,6 +51,8 @@ NOTE if another process is already listening on port 1900, will see errors on st
 
 So (msearch) discovery will not work but light requests will work fine.
 
+Does not work with https://github.com/ekux44/LampShade (which appears to work with Home Assistant), either on port 80 or something else.
+
 ### cURL Philips Hue samples
 
     echo IP needs to include colon port if NOT using port 80
