@@ -233,6 +233,7 @@ def scan_for_lights(): #scan for ESP8266 lights and strips
 
 
 def description():
+# FIXME UDN
     return """<root xmlns=\"urn:schemas-upnp-org:device-1-0\">
 <specVersion>
 <major>1</major>
@@ -249,7 +250,7 @@ def description():
 <modelNumber>BSB002</modelNumber>
 <modelURL>http://www.meethue.com</modelURL>
 <serialNumber>""" + mac.upper() + """</serialNumber>
-<UDN>MYUUID</UDN>
+<UDN>uuid:deadbeef-dead-beef-dead-beefdeadbeef</UDN>
 <presentationURL>index.html</presentationURL>
 <iconList>
 <icon>
