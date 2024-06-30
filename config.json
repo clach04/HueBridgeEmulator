@@ -115,6 +115,30 @@
                 "lastupdated": "2024-06-30T00:36:33"
             },
             "type": "Zone"
+        },
+
+
+        "4": {
+            "action": {
+                "alert": "select",
+                "bri": 254,
+                "colormode": "ct",
+                "ct": 366,
+                "on": false
+            },
+            "class": "Kitchen",
+            "lights": [
+                "7",
+                "8"
+            ],
+            "name": "Bedroom 1",
+            "recycle": false,
+            "sensors": [],
+            "state": {
+                "all_on": false,
+                "any_on": false
+            },
+            "type": "Room"
         }
     },
     "lights": {
@@ -249,7 +273,38 @@
             "swversion": "66009461",
             "type": "Extended color light",
             "uniqueid": "92:a0:d7:7f:cf:5c-1"
-        }
+        },
+
+      "7": {
+        "manufacturername": "Made Up Corp",
+        "modelid": "FAKE123",
+        "name": "Test Lamp",
+        "state": {
+          "bri": 1,
+          "mode": "homeautomation",
+          "on": false,
+          "reachable": true
+        },
+        "swversion": "123",
+        "type": "Dimmable light",
+        "uniqueid": "00:99:44:6d:f1:13:4f:25-4c"
+      },
+      "8": {
+        "manufacturername": "Made Up Corp",
+        "modelid": "FAKE123",
+        "name": "Test Switch",
+        "productname": "On/Off light",
+        "state": {
+          "bri": 254,
+          "mode": "homeautomation",
+          "on": false,
+          "reachable": true
+        },
+        "swversion": "123",
+        "type": "On/Off light",
+        "uniqueid": "00:99:44:50:1b:e0:e5:80-d1"
+      }
+
     },
     "resourcelinks": {},
     "rules": {},
